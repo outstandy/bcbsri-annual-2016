@@ -1,0 +1,41 @@
+header.header(role='header')
+  nav.header__nav(role='nav')
+    .wrapper
+      a(href='https://www.bcbsri.com/')
+        include(src='_logo.sgr')
+
+  .header__content
+    p.anim Blue Cross & Blue Shield of Rhode Island
+    h1.anim.delay-4 2016 <br /> Annual Report
+
+.flex-box
+  .box-item
+    .part2
+      a(href='#letter').toc__item.push CEO Letter
+    .part1
+      include(src='_wave.sgr')
+  .box-item
+    .part2
+      a(href='#accelerate').toc__item.toc__item--accelerate 1. Accelerate
+    .part1.delay-1
+      include(src='_wave.sgr')
+  .box-item
+    .part2
+      a(href='#innovate').toc__item.toc__item--innovate 2. Innovate
+    .part1.delay-2
+      include(src='_wave.sgr')
+  .box-item
+    .part2
+      a(href='#accelerate').toc__item.toc__item--enable 3. Enable
+    .part1.delay-3
+        include(src='_wave.sgr')
+  .box-item
+    .part2
+      a(href='#accelerate').toc__item.push Community
+    .part1.delay-4
+        include(src='_wave.sgr')
+  .box-item
+    .part2
+      a(href='#accelerate').toc__item.push Financials
+    .part1.delay-5
+        include(src='_wave.sgr')

@@ -1,0 +1,160 @@
+.section
+
+  & label
+    margin-bottom: var(--spacing-small)
+
+  & figure,
+  & .blockquote
+    width: 100000px
+    margin-bottom: var(--spacing-smallest)
+
+  & blockquote,
+  & .caption
+    max-width: var(--width-content)
+
+  &--letter
+    & .img-signature
+      height: 50px
+
+  &__pattern
+    position: absolute
+    z-index: -1
+    height: 30%
+    left: -10%
+    margin-top: 60px
+    width: 2000px
+
+    &--accelerate
+      background-image: url('../img/pattern--accelerate.png')
+
+    &--innovate
+      background-image: url('../img/pattern--innovate.png')
+
+    &--enable
+      background-image: url('../img/pattern--enable.png')
+
+    &--community
+      background-image: url('../img/pattern--community.png')
+
+  &__header
+    margin-bottom: var(--spacing-big)
+
+  &__callout
+    display: flex
+    margin-bottom: var(--spacing-big)
+
+  &__callout__img
+    margin-right: var(--spacing-small)
+    width: 80px
+    height: 100%
+
+  &__sub-section
+    margin-bottom: var(--spacing-big)
+    position: relative
+
+  &--accelerate
+    & h3,
+    & a,
+    & label,
+    & figure
+      color: var(--matunuck-beach)
+
+    & .section__callout
+      &__figure
+        display: block
+      & figure,
+      & blockquote
+        border-bottom: 1px solid var(--matunuck-beach)
+
+  &--innovate
+    & h3,
+    & span,
+    & a,
+    & label,
+    & figure
+      color: var(--narragansett-sun)
+
+    & .section__callout
+      &__figure
+        display: block
+      & figure,
+      & .blockquote
+        border-bottom: 1px solid var(--narragansett-sun)
+
+  &--enable
+    & h3,
+    & a,
+    & label,
+    & figure
+      color: var(--east-greenwich)
+
+    & .section__callout
+      &__figure
+        display: block
+      & figure,
+      & blockquote
+        border-bottom: 1px solid var(--east-greenwich)
+
+  &--community,
+  &--financials
+    & h3,
+    & a,
+    & label,
+    & figure
+      color: var(--blackstone-river)
+
+    & .section__callout
+      &__figure
+        display: block
+      & figure,
+      & blockquote
+        border-bottom: 1px solid var(--blackstone-river)
+
+.financial
+  &__figure
+    font-size: var(--type-big)
+
+  &__summary
+    border-bottom: 1px solid var(--blackstone-river)
+    color: var(--gray--dark)
+    margin-bottom: var(--spacing-small)
+
+    & figure
+      color: var(--gray--dark)
+
+  &__total
+    color: var(--blackstone-river)
+
+.calculator
+  background-color: var(--gray--light)
+  text-align: right
+  padding: var(--spacing-big) 0
+
+.section__img
+  height: 350px
+  width: 150px
+  background-repeat: no-repeat
+  background-position: center center
+  position: absolute
+  top: 0
+  right: -250px
+
+  &--letter
+    background-image: url('../img/headshot-keck.jpg')
+    background-size: auto 300px
+    border-left: 1px solid var(--blue-cross-blue)
+
+  &--accelerate
+    background-image: url('../img/managing.jpg')
+    background-size: auto 300px
+    border-left: 1px solid var(--matunuck-beach)
+
+  &--innovate
+    background-image: url('../img/driving.jpg')
+    background-size: auto 300px
+    border-left: 1px solid var(--narragansett-sun)
+
+  &--enable
+    background-image: url('../img/enable.jpg')
+    background-size: auto 300px
+    border-left: 1px solid var(--east-greenwich)

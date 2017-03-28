@@ -1,0 +1,6 @@
+footer
+  .footer(role='footer')
+    a(href='https://www.bcbsri.com/')
+      include(src='_logo.sgr')
+    p Things!
+    p More things!

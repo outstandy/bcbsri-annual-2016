@@ -1,0 +1,20 @@
+.community-grid
+
+  .community-block.two-two.painting.anim.delay-4
+
+  .community-grid__subgrid.wide
+    .community-block.two-one.anim.delay-1
+      h4 ~80%
+      p.caption Percent of BCBSRI employees who volunteer
+
+    .community-block.one-one.anim.delay-3
+    .community-block.one-one.anim.community-kids
+
+  .community-block.one-two.kids.anim
+
+  .community-block.one-one.anim.playworks
+  .community-block.one-one.anim.rihsc
+  .community-block.two-one.kids.anim
+  .community-block.one-one.anim
+    h4 40
+    p.caption Nonprofit boards we serve&nbsp;on

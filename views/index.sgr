@@ -1,0 +1,263 @@
+extends(src='layout.sgr')
+  block(name='content')
+
+    include(src='_header.sgr')
+
+    section#letter.section.section--letter.anim
+      .wrapper
+        .section__sub-section
+          p The past year was a challenging one for customers and for Blue Cross & Blue Shield of Rhode Island (BCBSRI), as the cost of healthcare for our more than 400,000 members continued to escalate even further beyond what Rhode Islanders can afford. Amid the challenges in 2016, we continued to see many innovative and effective collaborations with providers, resulting in the delivery of higher-quality, lower-cost care. Despite these accomplishments, however, Rhode Island continues to be among the most expensive places in the country to receive healthcare.
+          p To achieve the “triple aim” of better health for our state, a simpler patient experience, and lower costs, in 2017 we must accelerate the coordination of patient care across providers, innovate lower-cost insurance coverage options, and enable consumers to be more informed about their healthcare choices and costs.
+          p We know that when primary care physicians coordinate their patients’ care with specialists and hospitals&mdash;in what we call “systems of care”&mdash;better health and financial outcomes follow. Our agreement with the state’s leading providers dramatically improves the patient experience. Immediate access to primary care, for example, reduces unnecessary use of higher-cost emergency rooms.
+          p Like many organizations across industries today, BCBSRI is leveraging data to drive strategy and advance business results, while enhancing the customer experience. In 2016 we launched a new health data analytics platform to support Rhode Island’s primary care providers as well as employers who offer our plans. Blue Insights for Rhode Island makes it easier for clinicians to assess information on individual patients and analyze data for entire patient populations, resulting in improved health outcomes. For employers, the tool provides customized reports on utilization and healthcare needs, helping them to make better informed plan decisions.
+          p More recently, our partnership with Virgin Pulse offers our customers an industry-leading mobile wellness platform. Keeping people healthy contributes to the health of our businesses and communities as well, while also saving money.
+          p In Rhode Island, where our members include our friends and neighbors, we are fortunate to be part of a strong, caring community. Improving the health of our Rhode Island communities is an essential part of our mission, and we continued our strong efforts by supporting more than 200 organizations and contributing 8,000 hours of volunteer work.
+          p Challenges and uncertainties are a constant in the healthcare world, as is our dedication to leading and shaping our state’s response to them. In 2017, we will continue working to improve Rhode Island’s economy—and enhance the quality of life for all who live here—through the pursuit of simple and affordable healthcare.
+
+          img.img-signature(src='img/sig-keck.png')
+          p &mdash;Kim Keck
+          label CEO
+          
+          .section__img.section__img--letter.anim.anim-img
+
+
+    svg(width="100%" height="126px" viewBox="-14 2702 1478 126" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink")
+      polyline.anim.anim-wave(id="ekg-wave" stroke="#0091DA" stroke-width="1" fill="none" points="-13 2770.89555 693.181825 2770.89555 703.963487 2751.93926 719.466643 2803.73002 745.792348 2706 745.792348 2823.76596 765.509498 2755.8331 775.619465 2782.03193 788.138463 2760.6722 801.232589 2776.41406 1463 2776.41406")
+
+    section#accelerate.section.section--accelerate
+      .wrapper
+        .section__header.anim
+          .section__pattern.section__pattern--accelerate
+          label accelerate
+          h2 Expanding the &ldquo;systems of care&rdquo; approach
+          h3 When we collaborate with physicians to increase coordination of care, quality goes up and costs come down.
+
+        .section__sub-section.anim
+          h4 Accelerating the coordination of patient care
+          p In our systems of care approach, primary care physicians coordinate their patients’ care with specialists and hospitals. It’s a model that, in 2016, improved quality and helped control costs. For example, these systems of care reduced trips to the emergency room by 15% for our members who struggle with diabetes. These patients also had a more positive experience within the healthcare system. Duplicate tests and redundant information requests were minimized, as was the potential for conflicting diagnoses. By 2018, BCBSRI aims to have 40% of physicians in Rhode Island collaborating with practices that have adopted our systems of care approach.
+
+        .section__callout.anim.anim-callout
+          img.section__callout__img(src='http://placehold.it/80x80')
+          .section__callout__figure
+            figure 15%
+            p.caption Fewer trips to the emergency room for members with diabetes
+
+        .section__callout.offset-2.anim.anim-callout
+          img.section__callout__img(src='http://placehold.it/80x80')
+          .section__callout__figure
+            figure 40%
+            p.caption Rhode Island physicians who will be collaborating with our systems of care in 2018
+
+        .section__sub-section.anim
+          h4 Managing care proactively
+          p Over the past few years we have expanded our systems approach with the state’s leading providers to cover more than 140,000 BCBSRI members. In 2016, through our agreement with Integra Community Care Network, we made coordinated healthcare available to 60,000 of our members. In a first for Rhode Island, eight new primary care centers strategically located across the state now provide same-day care for patients with urgent care issues. This builds on previous agreements with groups like Lifespan and CharterCARE Health Partners.
+          .section__img.section__img--accelerate.anim.anim-img
+
+        .section__callout.anim.anim-callout
+          img.section__callout__img(src='http://placehold.it/80x80')
+          .section__callout__figure
+            figure 60,000
+            p.caption BCBSRI members enrolled in the Integrata Community Care Network
+
+    svg.anim.anim-wave(width="100%" height="126px" viewBox="-14 2702 1478 126" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink")
+      polyline.anim.anim-wave(id="ekg-wave" stroke="#F1BE48" points="-13 2770.89555 693.181825 2770.89555 703.963487 2751.93926 719.466643 2803.73002 745.792348 2706 745.792348 2823.76596 765.509498 2755.8331 775.619465 2782.03193 788.138463 2760.6722 801.232589 2776.41406 1463 2776.41406")
+
+    section#innovate.section.section--innovate
+      .wrapper
+        .section__header.anim
+          .section__pattern.section__pattern--innovate
+          label innovate
+          h2 Delivering lower-cost solutions
+          h3 We offer newer coverage options that can lower premiums and overall costs&mdash;and help members stay healthy.
+
+        .section__sub-section.anim
+          h4 Innovating lower-cost solutions
+          p Businesses in Rhode Island need to offer great benefits to attract talented employees, like the customized wellness platform we began offering in 2016. Designed by Virgin Pulse for mobile, desktop, and wearables, it helps employers cultivate healthier habits for their employees. For example, the platform uses gaming techniques to engage users in activities that promote healthy behaviors. Participation by employees, including BCBSRI associates, improves workplace culture, increases productivity, and boosts overall employee wellness through better nutrition, sleep, and activity levels. This, in turn, lowers medical costs and improves business outcomes.
+          p
+            a(href='https://www.bcbsri.com/virginpulse') Learn more about BCBSRI and Virgin Pulse.
+
+        .section__callout.anim.anim-callout
+          img.section__callout__img(src='img/logo-virgin.png')
+          .section__callout__figure
+            .blockquote
+              blockquote “I’m so pleased that <span>Virgin Pulse</span> will be partnering with the largest health plan in Rhode Island to bring healthy habits and positive change to our state.”
+            p.caption &mdash;Dr. Rajiv Kumar, President & Chief Medical Officer, Virgin Pulse
+
+        .section__sub-section.anim
+          h4 Driving smarter healthcare decisions
+          p In 2016 we continued to encourage employers and individuals to choose newer coverage solutions that lower premiums and overall costs without sacrificing quality. Consumer-driven health plans, including health savings accounts (HSAs), promote smarter healthcare decisions. Each year, these plans can save the average small business as much as $50,000. By providing such plans&mdash;and increasing membership in them by 30% annually in the coming years&mdash;BCBSRI is helping to make healthcare more affordable for Rhode Island businesses and their employees.
+          .section__img.section__img--innovate.anim.anim-img
+
+        .section__callout.anim.anim-callout
+          img.section__callout__img(src='http://placehold.it/80x80')
+          .section__callout__figure
+            figure 50,000
+            p.caption BCBSRI members covered in systems of care
+
+        .section__callout.offset-2.anim.anim-callout
+          img.section__callout__img(src='http://placehold.it/80x80')
+          .section__callout__figure
+            figure 30%
+            p.caption BCBSRI members enrolled in the Integrata Community Care Network
+
+    svg(width="100%" height="126px" viewBox="-14 2702 1478 126" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink")
+      polyline.anim.anim-wave(id="ekg-wave" stroke="#78BE20" stroke-width="1" fill="none" points="-13 2770.89555 693.181825 2770.89555 703.963487 2751.93926 719.466643 2803.73002 745.792348 2706 745.792348 2823.76596 765.509498 2755.8331 775.619465 2782.03193 788.138463 2760.6722 801.232589 2776.41406 1463 2776.41406")
+
+    section#enable.section.section--enable.anim
+      .wrapper
+        .section__header
+          .section__pattern.section__pattern--enable
+          label enable
+          h2 Providing data to inform decision-making
+          h3 Our Blue Insights platform gives doctors and employers the same data so everyone can make informed decisions.
+
+        .section__sub-section.anim
+          h4 Enabling better healthcare information
+          p Having instant access to information allows us to make smart choices on everything from restaurants to airline tickets. At BCBSRI, we believe the same should be true for healthcare. Doctors, employers, and patients should be able to access data on the quality and cost of specific healthcare services so they can make more informed decisions. This is especially important with the delivery of specialty services, which account for 70% of total healthcare costs. Members can save money by comparing prices and choosing the lower-cost provider. By 2018, 100% of systems of care providers will have access to quality and cost data on specialists, enabling them and their patients to make more informed healthcare decisions.
+          .section__img.section__img--enable.anim.anim-img
+
+    .calculator
+        .calculator__top
+          figure.calc__figure $411&ndash;$1,600
+          p.caption Range of abdominal CAT scans
+
+          figure.calc__figure $1,200
+          p.caption The amount a member could potentially save by using our Cost Calculator tool
+
+    section.section.section--enable
+      .wrapper
+        .section__sub-section.anim
+          h4 Creating better insights, better health
+          p Blue Insights, the data analytics platform introduced by BCBSRI in 2016, allows healthcare professionals to access and analyze data for individuals and entire patient populations. With Blue Insights, providers are able to:
+
+    svg(width="100%" height="126px" viewBox="-14 2702 1478 126" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink")
+      polyline.anim.anim-wave(id="ekg-wave" stroke="#6399AE" stroke-width="1" fill="none" points="-13 2770.89555 693.181825 2770.89555 703.963487 2751.93926 719.466643 2803.73002 745.792348 2706 745.792348 2823.76596 765.509498 2755.8331 775.619465 2782.03193 788.138463 2760.6722 801.232589 2776.41406 1463 2776.41406")
+
+    section#community.section.section--community
+      .wrapper
+        .section__header.anim
+          .section__pattern.section__pattern--community
+          label Community
+          h2 BlueAngel Community Investment Program
+          h3 We continue to fulfill our mission to improve the health of our Rhode Island communities.
+
+        .section__sub-section.anim
+          h4 Teaming up for a healthier Rhode Island
+          p Through our BlueAngel Community Investment program, we support nonprofit organizations whose programs address critical health issues facing Rhode Islanders. In 2016, our signature investments focused on:
+          ul
+            li
+              p Addressing the issue of childhood obesity by forming and continuing strategic partnerships committed to increasing healthy behaviors and creating enhanced awareness around this issue.
+            li
+              p Funding clinics that provide free and low-cost services to the uninsured and the underinsured.
+            li
+              p Increasing health literacy among Rhode Islanders through community programs that help people understand the system and get the most from their healthcare.
+
+          p
+            a(href='https://www.bcbsri.com/community') Read about our community impact in 2015
+
+          p
+            a(href='https://www.bcbsri.com/diversityreport') Understand how we have cultivated a culture of Diversity
+
+    include(src='_community-grid.sgr')
+
+    section.section.section--community
+      .wrapper
+        .section__sub-section.anim
+          h4 Giving back through volunteerism
+          p Our employee volunteers are enthusiastic champions of our community investment efforts throughout the year. In 2016 alone, BlueAngel volunteers donated over 8,000 hours to more than 50 organizations in Rhode Island. Additionally, associates at all levels of the company serve on more than 40 local nonprofit organization boards.
+        h4 2016 by the Numbers
+        .section__callout.anim.anim-callout
+          img.section__callout__img(src='http://placehold.it/80x80')
+          .section__callout__figure
+            figure#215 215
+            p.caption Organizations that BCBSRI supported through in-kind donations, volunteerism, or financial support
+
+        .section__callout.offset-2.anim.anim-callout
+          img.section__callout__img(src='http://placehold.it/80x80')
+          .section__callout__figure
+            figure#8036 8,036
+            p.caption BCBSRI members enrolled in the Integrata Community Care Network
+
+        .section__callout.offset-1.anim.anim-callout
+          img.section__callout__img(src='http://placehold.it/80x80')
+          .section__callout__figure
+            figure $128,385
+            p.caption Charitable donations raised through employee fundraising
+
+        .section__callout.offset-3.anim.anim-callout
+          img.section__callout__img(src='http://placehold.it/80x80')
+          .section__callout__figure
+            figure $189,346
+            p.caption Value of the hours that BCBSRI employees volunteered*
+
+        .section__callout.anim.anim-callout
+          img.section__callout__img(src='http://placehold.it/80x80')
+          .section__callout__figure
+            figure $1,149,679
+            p.caption Invested by the company through financial or in-kind donations
+
+    section#financials.section.section--financials
+      .wrapper
+        .section__header.anim
+          label Financials
+          h2 2016 Financial Report
+          p In 2016, the rising use of medical services and high-priced specialty drugs resulted in a net loss of $35 million, despite achieving the lowest administrative cost ratio in a decade (12.8%).
+          p Our playbook for evolving how healthcare is delivered and paid for – incorporating collaborative care, lower-cost coverage options, and more informed providers and patients – made good headway in 2016, especially in the second half of the year, and we will continue that progress through 2017.
+          p Here is a detailed look at how the company performed in 2016.*
+
+        .section__sub-section.anim
+          h4 Revenue
+          p In 2016, we recorded $1,714,136,000 in premiums from members (individuals and employers). We also earned $2,525,000 in investment revenue.
+
+          .financial__summary
+            figure.financial__figure $1,714,136,000
+            p.caption Premium Revenue
+
+            figure.financial__figure + $2,525,000
+            p.caption Investment Revenue
+
+          .financial__total
+            figure.financial__figure $1,716,661,000
+            p.caption Total Revenue
+
+        .section__sub-section.anim
+          h4 Expenses
+          p From this total revenue, $1,479,912,000 was used for medical and dental claims for our members. This amount accounted for 86.3% of premiums collected. The company spent $219,852,000 on expenses to support the core operations of our business, or 12.8% of premiums (our lowest level since 2008). An additional $51,429,000 was spent on Affordable Care Act assessments and other expense items.
+
+          .financial__summary
+            figure.financial__figure $1,479,912,000
+            p.caption Payments to Providers
+
+            figure.financial__figure + $219,852,000
+            p.caption Administrative Expenses
+
+            span $36,127,000 Affordable Care Act assessments
+            span $15,302,000 Other expenses
+            figure.financial__figure + $15,302,000
+            p.caption Other Expenses
+
+          .financial__total
+            figure.financial__figure $1,751,193,000
+            p.caption Total Revenue
+
+        .section__sub-section.anim
+          h4 Net Loss
+          p Overall, while total revenue stood at almost $1.72 billion, expenses exceeded $1.75 billion in 2016, driven by increases in payments to providers. Our goal is to increase participation in our systems of care approach and continue to innovate in order to return to positive financial returns in 2017.
+
+          .financial__total
+            figure.financial__figure ($34,532,000)
+            p.caption Net Loss
+
+        .section__sub-section.anim
+          h4 Reserves
+          p In 2016, reserves that we held for the protection of our members totalled $266,471,000 at year end. At 15.5% of annual premium revenue, our reserves are higher than the 13% required by the state and higher than the reserve level recommended by the Blue Cross and Blue Shield Association. Our reserves allow us to cover all anticipated claims for two months.
+
+          .financial__summary
+            figure.financial__figure $293,735,000
+            p.caption 2015 Reserves
+
+          .financial__total
+            figure.financial__figure $266,471,000
+            p.caption 2016 Reserves
+
+    include(src='_footer.sgr')

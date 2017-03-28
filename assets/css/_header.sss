@@ -1,0 +1,91 @@
+.header
+  background-image: url('../img/annual-2016.jpg')
+  background-size: cover
+  background-position: 0% 20%
+  color: white
+  margin-bottom: var(--spacing-small)
+
+  &__nav
+    margin: 0 auto
+    border-bottom: 1px solid white
+    padding: var(--spacing-smallest) 0
+
+  &__nav-logo
+    height: 20px
+
+  &__content
+    margin: 0 auto
+    max-width: var(--width-max)
+    padding: var(--spacing-biggest) 0
+
+.toc__list
+  margin: var(--spacing-small) 0 var(--spacing-small) -16px
+
+.toc__item
+  color: var(--blackstone-river)
+  font-size: var(--type-small)
+  font-weight: var(--type-heaviest)
+  letter-spacing: 0.5px
+  margin-bottom: var(--spacing-smallest)
+  text-decoration: none
+  text-transform: uppercase
+  opacity: 0.8
+  transition: all 0.2s var(--timing)
+
+  &:hover
+    opacity: 1
+
+  &--accelerate,
+  &--innovate,
+  &--enable
+    color: var(--providence-night)
+
+  &--bcbs
+    &:hover
+      color: var(--providence-night)
+
+  &--accelerate
+    &:hover
+      color: var(--matunuck-beach)
+
+  &--innovate
+    &:hover
+      color: var(--narragansett-sun)
+
+  &--enable
+    &:hover
+      color: var(--east-greenwich)
+
+
+.flex-box
+  max-width: 100%
+
+  & .box-item
+    display: flex
+    flex-direction: row-reverse
+
+    & .part1
+      flex-grow: 1
+      opacity: 0
+      transition: all 0.2s var(--timing)
+      margin-left: -10%
+      fill: transparent
+      stroke-width: 1
+      stroke-dasharray: 60px
+      stroke-dashoffset: 60px
+      animation-duration: 2s
+      animation-iteration-count: 1 // Run only once
+      animation-fill-mode: forwards
+      animation-timing-function: var(--timing)
+      animation-name: drawWave
+
+    & .part2
+      width: 300px
+      margin-left: 30px
+
+      &:hover
+        & + .part1
+          transform: translateX(10px)
+
+.push
+  margin-left: 1rem
